@@ -1,9 +1,10 @@
 import React from 'react';
 import { Text } from 'react-native'
 
-const Login = () => {
+const Login = ({navigation}) => {
   
   const goToRegister = () => {
+       navigation.navigate('Register');
 
   }
   
