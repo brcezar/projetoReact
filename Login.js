@@ -1,9 +1,16 @@
 import React from 'react';
-import {Text} from 'react-native'
+import { Text } from 'react-native'
 
 const Login = () => {
+  
+  const goToRegister = () => {
+
+  }
+  
+  
+  
   return(
-       <text>TELA LOGIN</text>
+       <Text onPress={goToRegister}>Ir para o Login</Text>
   );
 }
 
