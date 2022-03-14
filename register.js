@@ -28,7 +28,7 @@ const Register = () => {
         theme={witheTheme}
         underlineColor="white"
       />
-      <TextInpute
+      <TextInput
         label="Password"
         value={name}
         onChangeText={(text) => setName(text)}
